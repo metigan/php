@@ -1,0 +1,57 @@
+{
+    "name": "metigan/metigan-php",
+    "description": "Official PHP SDK for Metigan API. Send emails, manage contacts, audiences, templates, and forms with ease.",
+    "type": "library",
+    "keywords": [
+        "metigan",
+        "email",
+        "email-api",
+        "sdk",
+        "php",
+        "contacts",
+        "audiences",
+        "templates",
+        "forms",
+        "marketing",
+        "newsletter",
+        "email-sending"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Metigan",
+            "email": "support@metigan.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.4",
+        "ext-json": "*",
+        "ext-curl": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Metigan\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Metigan\\Tests\\": "tests/"
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "homepage": "https://metigan.com",
+    "support": {
+        "email": "support@metigan.com",
+        "docs": "https://docs.metigan.com",
+        "issues": "https://github.com/metigan/php/issues",
+        "source": "https://github.com/metigan/php"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/metigan/php.git"
+    }
+}
