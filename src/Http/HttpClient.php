@@ -104,7 +104,12 @@ class HttpClient
                 $response = curl_exec($ch);
                 $statusCode = curl_getinfo($ch, CURLINFO_HTTP_CODE);
                 $error = curl_error($ch);
-                curl_close($ch);
+                // No-op since PHP 8.0 and deprecated in 8.5 (the notice would be
+                // printed into the caller's output); the handle is freed when
+                // $ch goes out of scope.
+                if (PHP_VERSION_ID < 80000) {
+                    curl_close($ch);
+                }
 
                 if ($response === false) {
                     throw new ApiException("cURL error: " . $error, 0);
