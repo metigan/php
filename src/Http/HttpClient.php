@@ -10,7 +10,7 @@ use Metigan\Exception\ValidationException;
  */
 class HttpClient
 {
-    private const BASE_URL = "https://api.metigan.com";
+    private const BASE_URL = "https://api.metigan.io";
 
     private string $apiKey;
     private int $timeout;

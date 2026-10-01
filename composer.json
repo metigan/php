@@ -20,7 +20,7 @@
     "authors": [
         {
             "name": "Metigan",
-            "email": "support@metigan.com"
+            "email": "support@metigan.io"
         }
     ],
     "require": {
@@ -43,10 +43,10 @@
     },
     "minimum-stability": "stable",
     "prefer-stable": true,
-    "homepage": "https://metigan.com",
+    "homepage": "https://metigan.io",
     "support": {
-        "email": "support@metigan.com",
-        "docs": "https://docs.metigan.com",
+        "email": "support@metigan.io",
+        "docs": "https://docs.metigan.io",
         "issues": "https://github.com/metigan/php/issues",
         "source": "https://github.com/metigan/php"
     },

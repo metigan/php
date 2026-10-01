@@ -87,7 +87,7 @@ $client = new MetiganClient(
 
 ### Getting Your API Key
 
-Get your API key from the [Metigan Dashboard](https://app.metigan.com/api-keys).
+Get your API key from the [Metigan Dashboard](https://app.metigan.io/api-keys).
 
 ## 📧 Sending Emails
 
@@ -360,14 +360,14 @@ $result['recipient_count']   // Will be null/undefined
 ## 📚 API Documentation
 
 For detailed API documentation, visit:
-- [Full Documentation](https://docs.metigan.com)
-- [API Reference](https://docs.metigan.com/api)
+- [Full Documentation](https://docs.metigan.io)
+- [API Reference](https://docs.metigan.io/api)
 
 ## 🤝 Support
 
-- **Email:** support@metigan.com
+- **Email:** support@metigan.io
 - **Issues:** [GitHub Issues](https://github.com/metigan/php/issues)
-- **Documentation:** [https://docs.metigan.com](https://docs.metigan.com)
+- **Documentation:** [https://docs.metigan.io](https://docs.metigan.io)
 
 ## 📄 License
 
@@ -375,7 +375,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 🔗 Links
 
-- [Metigan Homepage](https://metigan.com)
-- [Documentation](https://docs.metigan.com)
-- [API Reference](https://docs.metigan.com/api)
+- [Metigan Homepage](https://metigan.io)
+- [Documentation](https://docs.metigan.io)
+- [API Reference](https://docs.metigan.io/api)
 - [GitHub Repository](https://github.com/metigan/php)
